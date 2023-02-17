@@ -14,7 +14,7 @@ import { map } from 'rxjs/operators';
         <span>{{user.username}}</span>
     </div>
     <input type="text" [(ngModel)]="name" (ngModelChange)="name = $event" />
-    <button mat-raised-button color="accent" (click)="save()">Save</button>
+    <button mat-button (click)="save()">Save</button>
   `,
   styles: [
     

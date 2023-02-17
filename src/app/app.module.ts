@@ -18,10 +18,11 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    MatButtonModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatButtonModule
   ],
+  exports: [MatButtonModule],
   providers: [],
   bootstrap: [AppComponent]
 })
